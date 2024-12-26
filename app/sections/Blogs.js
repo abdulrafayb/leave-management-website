@@ -38,7 +38,7 @@ export default function Blogs() {
     <section className="max-w-[1181px] mx-auto pb-24">
       <div className="flex justify-between items-center">
         <div className="w-[600px]">
-          <h5 className="-text-dark text-[32px] mb-4 font-medium">Blogs</h5>
+          <h6 className="-text-dark text-[32px] mb-4 font-medium">Blogs</h6>
           <p className="-text-light-dark text-[18px]">
             Blogs are platforms where businesses share industry insights,
             updates, and valuable content

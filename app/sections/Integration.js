@@ -28,19 +28,19 @@ export default function Integration() {
               <span className="mr-3 -text-dark text-lg">●</span>
               Data Management with SharePoint:
             </li>
-            <p className="-text-light-dark text-[18px] ml-6">
+            <li className="-text-light-dark text-[18px] ml-6">
               Our app leverages Microsoft SharePoint for a secure and seamless
               backend data management experience.
-            </p>
+            </li>
 
             <li className="flex items-center -text-dark text-[25px]">
               <span className="mr-3 -text-dark text-lg">●</span>
               ERP Integration Made Easy:
             </li>
-            <p className="-text-light-dark text-[18px] ml-6">
+            <li className="-text-light-dark text-[18px] ml-6">
               Easily integrate with Microsoft Dynamics 365 and other popular
               ERPs for unified operations.
-            </p>
+            </li>
           </ul>
         </div>
       </div>
