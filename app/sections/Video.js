@@ -27,7 +27,7 @@ export default function Video() {
         {isVideoVisible && (
           <iframe
             className="absolute inset-0 w-full h-full rounded-[30px] z-10"
-            src={`https://www.youtube.com/embed/M-AtR6ocYM8?enablejsapi=1&autoplay=1&mute=1`}
+            src={`https://www.youtube.com/embed/MD1OxDAO1Mg?autoplay=1&mute=1`}
             title="YouTube Video"
             allow="autoplay; encrypted-media; picture-in-picture"
             allowFullScreen

@@ -17,6 +17,7 @@ const data = [
       "Easily submit and track expense claims for business-related costs.",
     LinkText: "Discover More",
     LinkIcon: ArrowIcon,
+    Link: "https://expenseapp.kaispe.com/",
   },
   {
     icon: { src: IconTwo, width: 156, height: 44.01 },
@@ -24,6 +25,7 @@ const data = [
     description: `Apply for professional loans with a simple workflow.`,
     LinkText: "Discover More",
     LinkIcon: ArrowIcon,
+    Link: "https://loanapp.kaispe.com/",
   },
   {
     icon: { src: IconThree, width: 92.26, height: 44 },
@@ -31,6 +33,7 @@ const data = [
     description: "Request and approve resources or supplies with ease.",
     LinkText: "Discover More",
     LinkIcon: ArrowIcon,
+    Link: "https://prapp.kaispe.com/",
   },
   {
     icon: { src: IconFour, width: 93.02, height: 55.74 },
@@ -38,6 +41,7 @@ const data = [
     description: "Track work hours, breaks, and attendance in real time.",
     LinkText: "Discover More",
     LinkIcon: ArrowIcon,
+    Link: "https://appsource.microsoft.com/en-us/product/dynamics-365/kaispellc.ksptimeapp_free?tab=Overview",
   },
 ];
 
@@ -73,7 +77,8 @@ export default function ESSSuite() {
             </div>
             <div className="flex flex-col flex-grow justify-end">
               <Link
-                href="/"
+                href={item.Link}
+                target="_blank"
                 className="text-[16.44px] leading-[21.37px] flex gap-2 items-center"
               >
                 <div className="bg-gradient-to-r bg-clip-text -from-gray -to-yellow text-transparent">
@@ -86,7 +91,12 @@ export default function ESSSuite() {
         ))}
       </div>
 
-      <Button href="/" text="View All ESS Apps" className="px-8 mt-12" />
+      <Button
+        href="https://appsource.microsoft.com/en-us/product/dynamics-365/kaispellc.ksp-ess-suite?tab=Overview"
+        text="View All ESS Apps"
+        className="px-8 mt-12"
+        target="_blank"
+      />
     </section>
   );
 }

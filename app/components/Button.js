@@ -9,18 +9,18 @@ export default function Button({
   ...props
 }) {
   return (
-    <div className="text-center">
-      <div
-        className={twMerge(
-          "bg-button-bg px-5 py-2.5 rounded-2xl text-[15px] inline-block w-auto",
-          className
-        )}
-        {...props}
-      >
-        <Link href={href} target={target}>
+    <Link href={href} target={target}>
+      <div className="text-center">
+        <div
+          className={twMerge(
+            "bg-button-bg px-5 py-2.5 rounded-2xl text-[15px] inline-block w-auto",
+            className
+          )}
+          {...props}
+        >
           {text}
-        </Link>
+        </div>
       </div>
-    </div>
+    </Link>
   );
 }

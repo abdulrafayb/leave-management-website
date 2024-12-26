@@ -5,6 +5,7 @@ import CheckCircleBlack from "/assets/pricing/check-circle-icon-black.png";
 import Button from "../../components/Button";
 
 import Image from "next/image";
+import Link from "next/link";
 
 const cardOneData = [
   {
@@ -86,8 +87,10 @@ export default function PricingPrices() {
         </h1>
         <p className="-text-light-dark text-[18.96px]">
           Unsure which plan best suits your needs?&nbsp;
-          <span className="underline text-[#6943FF]">Contact us</span> for
-          expert advice!
+          <Link href="/contact" target="_blank">
+            <span className="underline text-[#6943FF]">Contact us</span>&nbsp;
+          </Link>
+          for expert advice!
         </p>
       </div>
 
@@ -111,12 +114,13 @@ export default function PricingPrices() {
             <p className="text-[15.58px] mb-6">For Above 20 Users</p>
 
             <h3 className="text-[35.54px] mb-6">
-              <span className="font-medium">$ 15.00</span>{" "}
+              <span className="font-medium">$ 15.00</span>
               <span className="text-[17.77px]">/User/Month</span>
             </h3>
 
             <Button
-              href="/"
+              href="https://appsource.microsoft.com/en-us/product/dynamics-365/kaispellc.ksplvapp?tab=PlansAndPrice"
+              target="_blank"
               text="Buy Now"
               className="w-full -bg-light-golden text-[16px] text-black rounded-xl font-semibold p-3 mb-6"
             />
@@ -161,7 +165,7 @@ export default function PricingPrices() {
             </h2>
 
             <Button
-              href="/"
+              href="/contact"
               text="Contact Sales"
               className="w-full -bg-light-golden text-[16px] text-black rounded-xl font-semibold p-3 mb-6"
             />

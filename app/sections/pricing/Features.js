@@ -7,6 +7,7 @@ import IconSix from "/assets/pricing/feature-icon-six.png";
 import Heading from "../../components/Heading";
 
 import Image from "next/image";
+import Link from "next/link";
 
 const data = [
   {
@@ -21,9 +22,14 @@ const data = [
     description: (
       <>
         Simplify your approval workflows with&nbsp;
-        <span className="underline text-[#6943FF]">My Approvals</span>, an
-        independent app that integrates smoothly with your existing systems.
-        Enjoy enhanced visibility, tracking, and control over all your
+        <Link
+          href="https://appsource.microsoft.com/en-us/product/dynamics-365/kaispellc.kspapprovals_free?tab=Overview"
+          target="_blank"
+        >
+          <span className="underline text-[#6943FF]">My Approvals</span>
+        </Link>
+        , an independent app that integrates smoothly with your existing
+        systems. Enjoy enhanced visibility, tracking, and control over all your
         approvals.
       </>
     ),
@@ -52,7 +58,12 @@ const data = [
     description: (
       <>
         Track work hours, breaks, and attendance in real time with{" "}
-        <span className="underline text-[#6943FF]">Time Attendance App</span>.
+        <Link
+          href="https://appsource.microsoft.com/en-us/product/dynamics-365/kaispellc.ksptimeapp_free?tab=Overview"
+          target="_blank"
+        >
+          <span className="underline text-[#6943FF]">Time Attendance App</span>.
+        </Link>
       </>
     ),
   },

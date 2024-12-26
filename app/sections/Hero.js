@@ -3,6 +3,7 @@ import HeroImage from "/assets/hero-image.png";
 import Button from "../components/Button";
 
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Hero() {
   return (
@@ -26,16 +27,21 @@ export default function Hero() {
                 className="px-6"
               />
               <div className="flex justify-center items-center gap-3">
-                <div className="h-[50px] w-[50px] bg-gradient-to-tr -from-green -to-yellow rounded-full relative overflow-hidden flex items-center justify-center">
-                  <span className="flex items-center justify-center">
-                    <Image
-                      src={PlayButton}
-                      alt="play button"
-                      width={20}
-                      height={20}
-                    />
-                  </span>
-                </div>
+                <Link
+                  href="https://www.youtube.com/watch?v=MD1OxDAO1Mg"
+                  target="_blank"
+                >
+                  <div className="h-[50px] w-[50px] bg-gradient-to-tr -from-green -to-yellow rounded-full relative overflow-hidden flex items-center justify-center">
+                    <span className="flex items-center justify-center">
+                      <Image
+                        src={PlayButton}
+                        alt="play button"
+                        width={20}
+                        height={20}
+                      />
+                    </span>
+                  </div>
+                </Link>
                 <span className="-text-dark text-[18.84px]">
                   Watch Intro Video
                 </span>
@@ -52,6 +58,7 @@ export default function Hero() {
                 width={521.42}
                 height={500.6}
                 className="mx-auto"
+                priority
               />
             </div>
           </div>

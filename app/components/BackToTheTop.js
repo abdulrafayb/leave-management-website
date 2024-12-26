@@ -36,7 +36,6 @@ export default function BackToTopButton() {
         onClick={scrollToTop}
         className="fixed bottom-5 right-5 bg-black text-white py-2 px-3 shadow-lg transition-opacity duration-300 opacity-100 hover:opacity-95 font-black"
       >
-        {/* ⬆ */}
         <Image src={ArrowUp} alt="arrow up" height={26} width={26} />
       </button>
     )

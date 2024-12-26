@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function PricingPrices() {
   return (
     <section className="max-w-[1181px] mx-auto pb-36 pt-8">
@@ -10,10 +12,21 @@ export default function PricingPrices() {
         <p className="text-[20px] leading-[30px]">
           Microsoft License Requirement: Ensure that your organization holds
           relevant&nbsp;
-          <span className="underline text-[#987EFF]">Microsoft 365</span> and/or
-          <span className="underline text-[#987EFF]">
-            Microsoft Power Platform license(s)
-          </span>
+          <Link
+            href="https://www.microsoft.com/en-us/microsoft-365/enterprise/frontline-plans-and-pricing"
+            target="_blank"
+          >
+            <span className="underline text-[#987EFF]">Microsoft 365</span>
+          </Link>
+          &nbsp;and/or&nbsp;
+          <Link
+            href="https://www.microsoft.com/en-us/power-platform/products/power-apps/pricing/"
+            target="_blank"
+          >
+            <span className="underline text-[#987EFF]">
+              Microsoft Power Platform license(s)
+            </span>
+          </Link>
           &nbsp; for optimal application functionality.
         </p>
       </div>

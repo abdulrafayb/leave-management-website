@@ -67,8 +67,18 @@ export default function Footer() {
                   />
                 </div>
               </div>
-              <Image src={MicrosoftPurpleLogo} alt="microsoft logo" />
-              <Image src={MicrosoftBlueLogo} alt="microsoft logo" />
+              <Image
+                src={MicrosoftPurpleLogo}
+                alt="microsoft logo"
+                width={65}
+                height={65}
+              />
+              <Image
+                src={MicrosoftBlueLogo}
+                alt="microsoft logo"
+                width={65}
+                height={65}
+              />
             </div>
           </div>
 

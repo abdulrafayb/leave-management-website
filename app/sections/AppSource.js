@@ -29,7 +29,7 @@ export default function AppSource() {
           <Link
             href="https://appsource.microsoft.com/en-us/product/dynamics-365/kaispellc.ksplvapp?tab=Overview"
             target="_blank"
-            className="block w-fit cursor-pointer"
+            className="block w-fit cursor-pointer z-10"
           >
             <div className="flex w-[158.6px] h-[67.72px] bg-black gap-3 p-6 rounded-lg cursor-pointer">
               <div className="flex justify-center items-center gap-3 w-full h-full">
