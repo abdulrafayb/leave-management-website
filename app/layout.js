@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${poppins.variable} font-poppins antialiased bg-page-bg`}
+        className={`${poppins.variable} font-poppins antialiased bg-page-bg text-white`}
         suppressHydrationWarning
       >
         {children}
