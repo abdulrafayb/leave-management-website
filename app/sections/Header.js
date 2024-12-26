@@ -59,14 +59,14 @@ export default function Header() {
               Pricing
             </Link>
 
-            <Link
+            {/* <Link
               href="/contact"
               className={`${
                 pathname === "/contact" ? "-text-golden" : "-text-dark"
               }`}
             >
               Contact
-            </Link>
+            </Link> */}
           </nav>
         </div>
 

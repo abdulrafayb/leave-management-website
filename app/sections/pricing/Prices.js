@@ -87,7 +87,10 @@ export default function PricingPrices() {
         </h1>
         <p className="-text-light-dark text-[18.96px]">
           Unsure which plan best suits your needs?&nbsp;
-          <Link href="/contact" target="_blank">
+          <Link
+            href="https://www.kaispe.com/resources/contact-us/"
+            target="_blank"
+          >
             <span className="underline text-[#6943FF]">Contact us</span>&nbsp;
           </Link>
           for expert advice!
@@ -165,7 +168,8 @@ export default function PricingPrices() {
             </h2>
 
             <Button
-              href="/contact"
+              href="https://www.kaispe.com/resources/contact-us/"
+              target="_blank"
               text="Contact Sales"
               className="w-full -bg-light-golden text-[16px] text-black rounded-xl font-semibold p-3 mb-6"
             />

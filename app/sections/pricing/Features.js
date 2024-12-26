@@ -57,7 +57,7 @@ const data = [
     title: "Time Attendance - A Separate App",
     description: (
       <>
-        Track work hours, breaks, and attendance in real time with{" "}
+        Track work hours, breaks, and attendance in real time with&nbsp;
         <Link
           href="https://appsource.microsoft.com/en-us/product/dynamics-365/kaispellc.ksptimeapp_free?tab=Overview"
           target="_blank"

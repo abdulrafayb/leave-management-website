@@ -28,7 +28,8 @@ export default function Footer() {
               Book A Demo
             </Link>
             <Link
-              href="/contact"
+              href="https://www.kaispe.com/resources/contact-us/"
+              target="_blank"
               className="border-2 -border-dark px-8 py-2.5 rounded-2xl text-[15.4px] -text-dark"
             >
               Contact Us

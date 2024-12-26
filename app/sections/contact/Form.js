@@ -14,6 +14,14 @@ export default function Form() {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log("Form Data:", formData);
+
+    setFormData({
+      name: "",
+      email: "",
+      phone: "",
+      subject: "",
+      message: "",
+    });
   };
 
   return (
@@ -35,7 +43,7 @@ export default function Form() {
 
         <input
           type="email"
-          placeholder="Your Email"
+          placeholder="Email *"
           value={formData.email}
           onChange={(e) =>
             setFormData((prev) => ({
@@ -71,7 +79,6 @@ export default function Form() {
             }))
           }
           className="w-full py-3 bg-transparent placeholder:text-black placeholder:opacity-100 border-b-2 border-[#393939] border-opacity-40 focus:outline-none"
-          required
         />
 
         <textarea
@@ -84,7 +91,6 @@ export default function Form() {
             }))
           }
           className="col-span-2 w-full py-3 bg-transparent placeholder:text-black placeholder:opacity-100 border-b-2 border-[#393939] border-opacity-40 focus:outline-none"
-          required
         />
       </div>
 
